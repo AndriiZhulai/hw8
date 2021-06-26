@@ -2,8 +2,8 @@
 <suite name="Regression Suite" verbose="1" configfailurepolicy="continue" parallel="classes" thread-count="5" >
     <test name="Regression" >
         <packages>
-            <package name="com.customertimes.test.*">
-            <exclude name="com.customertimes.login.mfa.*"/>
+            <package name="com.customertimes.test.login.LoginTest">
+
             </package>
         </packages>
     </test>

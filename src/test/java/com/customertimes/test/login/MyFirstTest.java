@@ -29,7 +29,7 @@ public class MyFirstTest extends BaseTest {
     }
 
 
-    @Test
+    //@Test
     public void checkSiteTitle (){
 
         WebdriverRunner.getWebDriver().get("https://www.amazon.com/");

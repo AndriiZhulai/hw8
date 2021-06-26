@@ -24,7 +24,7 @@ public class RegistrationFormSecurityQuestionValidation extends BaseTest {
         WebdriverRunner.closeWebDriver();
     }
 
-    @Test
+    //@Test
     public void registrationFormEmptySecurityQuestionValidation() throws InterruptedException {
 
         getWebDriver().findElement(By.id("navbarAccount")).click();

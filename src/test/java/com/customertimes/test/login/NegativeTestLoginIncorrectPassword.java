@@ -28,7 +28,7 @@ public class NegativeTestLoginIncorrectPassword extends BaseTest {
         WebdriverRunner.closeWebDriver();
     }
 
-    @Test
+    //@Test
     public void incorrectPassword() throws InterruptedException {
         getWebDriver().findElement(By.id("navbarAccount")).click();
         getWebDriver().findElement(By.id("navbarLoginButton")).click();

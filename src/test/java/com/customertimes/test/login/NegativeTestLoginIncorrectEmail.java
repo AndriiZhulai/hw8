@@ -28,7 +28,7 @@ public class NegativeTestLoginIncorrectEmail extends BaseTest {
         WebdriverRunner.closeWebDriver();
     }
 
-    @Test
+    //@Test
     public void incorrectEmail() throws InterruptedException {
         getWebDriver().findElement(By.id("navbarAccount")).click();
         getWebDriver().findElement(By.id("navbarLoginButton")).click();

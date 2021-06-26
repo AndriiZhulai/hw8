@@ -29,7 +29,7 @@ public class NegativeTestLoginButtonIsDisabled extends BaseTest {
         WebdriverRunner.closeWebDriver();
     }
 
-    @Test
+    //@Test
     public void loginButtonIsDisabled () throws InterruptedException {
 
         getWebDriver().findElement(By.id("navbarAccount")).click();

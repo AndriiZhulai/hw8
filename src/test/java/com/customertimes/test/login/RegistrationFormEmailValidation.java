@@ -23,7 +23,7 @@ public class RegistrationFormEmailValidation extends BaseTest {
         WebdriverRunner.closeWebDriver();
     }
 
-    @Test
+   // @Test
     public void registrationFormEmailValidation() throws InterruptedException {
 
         getWebDriver().findElement(By.id("navbarAccount")).click();
